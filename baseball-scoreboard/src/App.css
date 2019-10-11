@@ -1,22 +1,24 @@
 .App {
   text-align: center;
+  background: url('https://media.stadiumtalk.com/a9/48/a9486694276944e9a02a2c24f37b4501.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 10%;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.scoreboard-wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+  width: 40vw;
+  height: 20vh;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: rgba(0,0,0,.3);
 }

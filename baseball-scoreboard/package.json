@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --no-watchman --watchAll=false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -29,7 +29,12 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^4.1.2",
+    "@testing-library/react": "^9.3.0",
     "jest-dom": "^4.0.0",
     "react-testing-library": "^8.0.1"
+  },
+  "resolutions": {
+    "**/@babel/runtime": "7.5.0"
   }
 }
